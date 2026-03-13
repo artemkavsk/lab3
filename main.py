@@ -6,7 +6,7 @@ import string
 def generate_key():
     blocks = []
 
-    for _ in range(3):
+    for i in range(3):
         letters = random.sample(string.ascii_uppercase, 3)
         digits = random.sample(string.digits, 2)
         chars = letters + digits
